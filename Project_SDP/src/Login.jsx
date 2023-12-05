@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
 import "./Login.css"
 export default function Login() {
-  useEffect(() => {
-    document.querySelector('.img__btn').addEventListener('click', function() {
-      document.querySelector('.cont').classList.toggle('s--signup');
-    });
-  }, []);
+
+  function Clk(){
+    document.querySelector('.cont').classList.toggle('s--signup');
+  }
 
 
   return (
@@ -34,7 +33,7 @@ export default function Login() {
             <h2>One of us?</h2>
             <p>If you already has an account, just sign in</p>
           </div>
-          <div className="img__btn">
+          <div className="img__btn" onClick={ ()=> {Clk()}}>
             <span className="m--up">Sign Up</span>
             <span className="m--in">Sign In</span>
           </div>
