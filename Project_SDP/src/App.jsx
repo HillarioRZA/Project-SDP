@@ -7,6 +7,7 @@ import { Contact } from "./pages/contact";
 import { Histories } from "./pages/history";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
+import { Checkout } from "./pages/checkout";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/history" element={<Histories/>}/>
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </Router>
       </ShopContextProvider>
