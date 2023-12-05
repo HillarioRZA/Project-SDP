@@ -1,66 +1,27 @@
-import React, { useEffect } from 'react';
-import "./App.css"
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/navbar";
+// import { Shop } from "./pages/shop/shop";
+import { ImageFilter } from "./imageFilter";
+import { Contact } from "./pages/contact";
+import { Cart } from "./pages/cart/cart";
+import { ShopContextProvider } from "./context/shop-context";
 
-export default function SignInSignUp() {
-  useEffect(() => {
-    document.querySelector('.img__btn').addEventListener('click', function() {
-      document.querySelector('.cont').classList.toggle('s--signup');
-    });
-  }, []);
-
+function App() {
   return (
-    <>
-      <div className="cont">
-        <div className="form sign-in">
-          <h2>Welcome</h2>
-          <label>
-            <span>Email</span>
-            <input type="email" />
-          </label>
-          <label>
-            <span>Password</span>
-            <input type="password" />
-          </label>
-          <p className="forgot-pass">Forgot password?</p>
-          <button type="button" className="submit">
-            Sign In
-          </button>
-        </div>
-        <div className="sub-cont">
-          <div className="img">
-            <div className="img__text m--up">
-              <h2>New here?</h2>
-              <p>Sign up and discover great amount of new opportunities!</p>
-            </div>
-            <div className="img__text m--in">
-              <h2>One of us?</h2>
-              <p>If you already have an account, just sign in. We've missed you!</p>
-            </div>
-            <div className="img__btn">
-              <span className="m--up">Sign Up</span>
-              <span className="m--in">Sign In</span>
-            </div>
-          </div>
-          <div className="form sign-up">
-            <h2>Register Now</h2>
-            <label>
-              <span>Name</span>
-              <input type="text" />
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" />
-            </label>
-            <label>
-              <span>Password</span>
-              <input type="password" />
-            </label>
-            <button type="button" className="submit">
-              Sign Up
-            </button>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className="App">
+      <ShopContextProvider>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<ImageFilter />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+        </Router>
+      </ShopContextProvider>
+    </div>
   );
 }
+
+export default App;
