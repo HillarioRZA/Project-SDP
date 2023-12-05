@@ -39,6 +39,7 @@ export const ShopContextProvider = (props) => {
 
   const checkout = () => {
     setCartItems(getDefaultCart());
+    
   };
 
   const contextValue = {

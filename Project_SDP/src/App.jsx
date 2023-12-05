@@ -4,6 +4,7 @@ import { Navbar } from "./components/navbar";
 // import { Shop } from "./pages/shop/shop";
 import { ImageFilter } from "./imageFilter";
 import { Contact } from "./pages/contact";
+import { Histories } from "./pages/history";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
 
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ImageFilter />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/history" element={<Histories/>}/>
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </Router>
