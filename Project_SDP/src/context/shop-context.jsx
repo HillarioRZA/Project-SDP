@@ -1,6 +1,5 @@
 import { createContext, useEffect, useState } from "react";
 import { useSelector } from 'react-redux';
-// import { PRODUCTS } from "../products";
 
 export const ShopContext = createContext(null);
 

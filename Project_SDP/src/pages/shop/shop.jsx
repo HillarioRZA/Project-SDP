@@ -1,5 +1,4 @@
 import React from "react";
-// import { PRODUCTS } from "../../products";
 import {useSelector} from "react-redux"
 import { Product } from "./product";
 import "./shop.css";

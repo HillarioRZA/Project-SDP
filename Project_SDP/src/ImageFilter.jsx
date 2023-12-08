@@ -1,6 +1,5 @@
 import React, { useState} from 'react';
 import {useSelector} from "react-redux"
-// import { PRODUCTS } from "./products";
 import { Product } from './pages/shop/product';
 import "./ImageFilter.css";
 

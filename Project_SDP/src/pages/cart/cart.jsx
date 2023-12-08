@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
-// import { PRODUCTS } from "../../products";
 import {useSelector} from "react-redux"
 import { CartItem } from "./cart-item";
 import { useNavigate } from "react-router-dom";
@@ -13,7 +12,6 @@ export const Cart = () => {
 
   const navigate = useNavigate();
  
-
   return (
     <div className="cart">
       <div>
