@@ -1,10 +1,13 @@
 import React, { useState} from 'react';
-import { PRODUCTS } from "./products";
+import {useSelector} from "react-redux"
+// import { PRODUCTS } from "./products";
 import { Product } from './pages/shop/product';
 import "./ImageFilter.css";
 
 export const ImageFilter =() => {
+  const productList = useSelector((state) => state.product.PRODUCTS)
   const [activeFilter, setActiveFilter] = useState('all');
+  
   const getCategories = (PRODUCTS) => {
     const categories = ['all'];
    
@@ -17,7 +20,7 @@ export const ImageFilter =() => {
     return categories;
    };
    
-   const categories = getCategories(PRODUCTS);
+   const categories = getCategories(productList);
 
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
@@ -38,7 +41,7 @@ export const ImageFilter =() => {
         ))}
       </div>
       <div className="filterable-cards" id="filterable-cards">
-        {PRODUCTS.map((product) => (
+        {productList.map((product) => (
           <div
           key={product.id}
           className={`card-filter ${activeFilter === 'all' || activeFilter === product.categori ? '' : 'hide'}`}
