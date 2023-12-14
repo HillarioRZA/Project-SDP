@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "65793b75d8506cc51171433c"
+  },
+  "name": "Gandhi",
+  "email": "gandhi@yahoo.com",
+  "password": "$2b$10$KKUCH4Tcvi62Npq5YzxvF.kGhn/r6McfnuLeuLP8sBGm.g4GWy9ua",
+  "role": "Seller",
+  "shopName": "Nuclear Shop",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793c58d8506cc511714343"
+  },
+  "name": "Zeke",
+  "email": "zeke@yahoo.com",
+  "password": "$2b$10$L0J7MlYB4gKXkFLTDHZRcOTIbHdZtR6mUnIi3QrI4dLyUEtR5/TE.",
+  "role": "Seller",
+  "shopName": "Woodman Shop",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793c80d8506cc511714347"
+  },
+  "name": "Yohanes",
+  "email": "yohanes@yahoo.com",
+  "password": "$2b$10$EHwMkmp/oEh8ZqUqbPjQouS1iSZQ/24V4mWOLWxB4QJiEsbGp7rJG",
+  "role": "Seller",
+  "shopName": "Stone Shop",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793c96d8506cc51171434b"
+  },
+  "name": "Vivi",
+  "email": "vivi@yahoo.com",
+  "password": "$2b$10$4spdibaKuOkZU/IrSHps4uj/BbWMNwtfPazV3aAxnMQWsbXWNdmiG",
+  "role": "Seller",
+  "shopName": "VIVI Shop",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793caad8506cc51171434f"
+  },
+  "name": "Xavier",
+  "email": "xavier@yahoo.com",
+  "password": "$2b$10$.lvaZ1DninDx.wluQal51eKlXcDkvbfFxDveBU1cSzXFF645GTAwG",
+  "role": "Seller",
+  "shopName": "X Shop",
+  "__v": 0
+}]

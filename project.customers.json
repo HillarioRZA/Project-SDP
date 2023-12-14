@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "65793b13894181790403b22a"
+  },
+  "name": "Febri",
+  "email": "febri@gmail.com",
+  "password": "$2b$10$UJu/KtWUeKQUjKiSPfg2nuFSH0JIBinz1gENpqP63AcufPC.nHuYe",
+  "role": "Customer",
+  "cartDetails": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793cc6d8506cc511714353"
+  },
+  "name": "Dalil",
+  "email": "dalil@yahoo.com",
+  "password": "$2b$10$jkhvIZOG2QLPSxXqTM57ZepbiDJVu9tGM29Lm.AP5ouGwN2/TuhLW",
+  "role": "Customer",
+  "cartDetails": [],
+  "__v": 0,
+  "shippingData": {
+    "address": "asdf",
+    "city": "asdf",
+    "state": "asdf",
+    "country": "asdf",
+    "pinCode": 354654,
+    "phoneNo": 808282857
+  }
+},
+{
+  "_id": {
+    "$oid": "65793ce0d8506cc511714356"
+  },
+  "name": "Chandra",
+  "email": "chandra@yahoo.com",
+  "password": "$2b$10$eOgqHVDqhFgU4ZdlG78hdeUOH9LH7t9g5mU8Hcrnf03zYTisTSVGW",
+  "role": "Customer",
+  "cartDetails": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793cf5d8506cc511714359"
+  },
+  "name": "Agus",
+  "email": "agus@yahoo.com",
+  "password": "$2b$10$4/xaI8AlvmXYWkYNa/28WuDhdZznXzoZ1Z4DG.hHGIeOKKlHQ8FEi",
+  "role": "Customer",
+  "cartDetails": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65793d00d8506cc51171435c"
+  },
+  "name": "Eko",
+  "email": "eko@yahoo.com",
+  "password": "$2b$10$PFfV90K51eo2mgYLUei2IeiGe1bAUWWCJfzAeTP1vzbUoil4k.gw2",
+  "role": "Customer",
+  "cartDetails": [],
+  "__v": 0
+}]
