@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6579a63a2a940d72bed12c14"
+  },
+  "productName": "Ikan Louhan",
+  "price": {
+    "mrp": 12500,
+    "cost": 10000,
+    "discountPercent": 15
+  },
+  "subcategory": "ikan",
+  "productImage": "https://cdn0-production-images-kly.akamaized.net/JKrUZgfgZjGbAgUswJ4TFLAjkLg=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2371934/original/028193600_1538422552-IMG-20180928-WA0003.jpg",
+  "category": "Ikan Hias",
+  "description": "Ikan Hias",
+  "tagline": "hias",
+  "quantity": 1,
+  "seller": {
+    "$oid": "65793b75d8506cc51171433c"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2023-12-13T12:40:26.611Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T00:16:09.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657a5b3255a9626fa61dbefb"
+  },
+  "productName": "Aquarium",
+  "price": {
+    "mrp": 120000,
+    "cost": 120000,
+    "discountPercent": 0
+  },
+  "subcategory": "Aquarium",
+  "productImage": "https://asset.kompas.com/crops/dNtLc--VifKRyPq7gP-w61GG5UA=/100x67:900x600/750x500/data/photo/2022/03/16/6231611281936.jpg",
+  "category": "Aquarium",
+  "description": "XL",
+  "tagline": "aquarium",
+  "quantity": 1,
+  "seller": {
+    "$oid": "65793b75d8506cc51171433c"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2023-12-14T01:32:34.609Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T01:32:34.609Z"
+  },
+  "__v": 0
+}]

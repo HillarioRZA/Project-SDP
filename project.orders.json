@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6579a91c331c24c9f20351dd"
+  },
+  "buyer": {
+    "$oid": "65793cc6d8506cc511714353"
+  },
+  "shippingData": {
+    "address": "asdf",
+    "city": "asdf",
+    "state": "asdf",
+    "country": "asdf",
+    "pinCode": 354654,
+    "phoneNo": 808282857
+  },
+  "orderedProducts": [
+    {
+      "productName": "test",
+      "price": {
+        "mrp": 100,
+        "cost": 100,
+        "discountPercent": 0
+      },
+      "subcategory": "test",
+      "productImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ATest.svg&psig=AOvVaw0ENo0fUlWiJux78ACVB46L&ust=1702556998376000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCPDXtJq1jIMDFQAAAAAdAAAAABAE",
+      "category": "test",
+      "description": "test",
+      "tagline": "test",
+      "quantity": 1,
+      "seller": {
+        "$oid": "65793b75d8506cc51171433c"
+      },
+      "_id": {
+        "$oid": "6579a63a2a940d72bed12c14"
+      }
+    }
+  ],
+  "paymentInfo": {
+    "id": "1234-2028-1702471962758",
+    "status": "Successful"
+  },
+  "paidAt": {
+    "$date": "2023-12-13T12:52:44.548Z"
+  },
+  "productsQuantity": 1,
+  "taxPrice": 0,
+  "shippingPrice": 0,
+  "totalPrice": 100,
+  "orderStatus": "Processing",
+  "createdAt": {
+    "$date": "2023-12-13T12:52:44.557Z"
+  },
+  "__v": 0
+}]
