@@ -22,7 +22,7 @@ const Slide = ({ products, title }) => {
 
             <Divider />
 
-            {/* <Carousel
+            <Carousel
                 swipeable={false}
                 draggable={false}
                 responsive={responsive}
@@ -51,7 +51,7 @@ const Slide = ({ products, title }) => {
                         </Link>
                     ))
                 }
-            </Carousel> */}
+            </Carousel>
         </Component>
     )
 }
