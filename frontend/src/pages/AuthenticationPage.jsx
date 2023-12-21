@@ -82,6 +82,10 @@ const AuthenticationPage = ({ mode, role }) => {
 
     useEffect(() => {
         if (status === 'success' && currentRole !== null) {
+             if (typeof window !== 'undefined') {
+            const token = localStorage.getItem('token');
+            console.log('Token:', token);
+            }
             navigate('/');
         }
         else if (status === 'failed') {
