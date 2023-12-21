@@ -160,7 +160,7 @@ export const getProducts = () => async (dispatch) => {
 
   try {
     const result = await axios.get(
-      `${process.env.REACT_APP_BASE_URL}/getProducts`
+      `${https://project-sdp-be.vercel.app/}/getProducts`
     );
     if (result.data.message) {
       dispatch(getProductsFailed(result.data.message));
