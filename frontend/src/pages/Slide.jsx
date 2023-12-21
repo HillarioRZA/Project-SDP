@@ -50,7 +50,7 @@ const Slide = ({ products, title }) => {
                             </Box>
                         </Link>
                     ))
-                  
+
                 }
             </Carousel>
         </Component>
