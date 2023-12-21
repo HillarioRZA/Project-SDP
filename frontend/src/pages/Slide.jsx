@@ -35,7 +35,7 @@ const Slide = ({ products, title }) => {
                 containerClass="carousel-container"
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px">
-                {
+                {              
                     products.map((product, index) => (
                         <Link key={index} to={`/product/view/${product._id}`} style={{ textDecoration: 'none' }}>
                             <Box textAlign="center" style={{ padding: '25px 15px' }}>
@@ -50,6 +50,7 @@ const Slide = ({ products, title }) => {
                             </Box>
                         </Link>
                     ))
+                  
                 }
             </Carousel>
         </Component>
