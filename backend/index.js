@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(cors({
-  origin: 'https://project-sdp-fe.vercel.app/'
+  origin: 'https://project-sdp-fe.vercel.app'
 }));
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
