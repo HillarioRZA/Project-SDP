@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json({ limit: "10mb" }));
 app.use(
   cors({
-    origin: "https://project-sdp-fe.vercel.app/",
+    origin: "https://project-sdp-be.vercel.app/",
   })
 );
 
