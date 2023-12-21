@@ -14,7 +14,6 @@ const Routes = require("./routes/route.js");
 
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
 app.use(cors({
   origin: ['https://project-sdp-fe.vercel.app'],
   methods: ["POST","GET"],
