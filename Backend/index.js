@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(cors({
-  origin: ['https://project-sdp-fe.vercel.app'],
+  origin: ['https://sdp-frontend-eight.vercel.app'],
   methods: ["POST","GET"],
   credentials:true
 }));
